@@ -7,7 +7,7 @@
 1. 데이터 전처리
 2. EDA - tableau, python 이용
 3. 분석
-  - Getis 검정 통계량을 이용한 hot-spot 분석
+    1) Getis 검정 통계량을 이용한 hot-spot 분석
   - 로지스틱 회귀분석
   - 가우시안 혼합 모형의 EM 알고리즘
 
