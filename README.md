@@ -6,7 +6,7 @@
 ## Data analysis process
 
 1. Data preprocessing
-    -  We use not only given data by the organizer, COMPAS but also other data.
+    -  We used not only given data by the organizer,COMPAS, but also other data.
         - We collected data impacting neighbor shops about traffic, education, medical facility,  cultural facility, etc. (Usually public data)
     - Data Concatnation 
         -  
