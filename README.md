@@ -5,28 +5,35 @@
 
 ## Data analysis process
 
-1. Data preprocessing
-    -  We used not only given data by the organizer,COMPAS, but also other data.
-        - We collected data impacting neighbor shops about traffic, education, medical facility,  cultural facility, etc. (Usually public data)
-    - Data Concatnation 
-        -  
-      
-    
-    - 데이터 통합 <br>
-      : COMPAS에서 주어진 데이터와 공공데이터를 함께 활용하기 위해 데이터 통합진행. <br>
-        비공개 데이터도 혼합되어 있어 API를 이용해 서버로 코드를 구현하였다. 주어진 데이터를 하나의 데이터 프레임으로 합침.
-    - 격자 통합 <br>
-      : 250x250 격자와 100x100격자가 혼합되어 있어 더 큰 500x500 격자로 통일하였다. 격자 통합 과정은 QGIS 툴을 사용하였다.
-    - 결측 데이터 보완 <br>
-      : COMPAS 데이터 중, 행정동 관련 변수에 결측치가 존재해 Google Map 크롤링으로 데이터 추가
-    
-3. EDA - tableau, python 이용
-    
-      
-4. 분석
-    - Getis 검정 통계량을 이용한 hot-spot 분석
-    - 로지스틱 회귀분석
-    - 가우시안 혼합 모형의 EM 알고리즘
+**1. Data preprocessing**
+
+- Data Collection</br>
+    -  We used not only given data by the organizer,COMPAS, but also other data.</br>
+    - We collected data impacting neighbor shops about traffic, education, medical facility,  cultural facility, etc. (Usually public data)</br>
+- Data Concatenation </br>
+    -  We concatenated the given data with external data.
+    -  We implemented the code with API. Because they included nondisclosure data.
+    -  One data frame is produced.
+-  Grid Integration
+    - The data was mixed with both 250x250 grid and 100x100 grid. They were integrated into a 500x500 grid. This process was carried out using the QGIS tool.
+
+- Missing Values
+    - In COMPAS data, The administrative district column had a lot of missing values.
+    - So, we crawled Google Map and supplemented the missing data.
+
+
+**2. EDA**
+- We visualized with data with Tableau and Python
+
+
+**3. Analysis**
+- Hot-spot analysis with Getis test statistic.
+- Logistic Regression
+- EM algorithms for Gaussian Mixture Model
+  
+  
+
+
 
 
 ## 느낀점
