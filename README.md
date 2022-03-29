@@ -1,7 +1,7 @@
 # [COMPAS] YoungIn-Si Bigdata contest.
 
 - Topic: Present ideas for youth entrepreneurship or business settlement
-- Period : 2021.01.07 ~ 2021.01.28
+- Period : 01/07/2021 ~ 01/28/2021
 - We failed the award.
 
 ## Data analysis process
